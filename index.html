@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>MOMENTOS UNICOS</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>MOMENTOS UNICOS</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE NOSOTROS</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">ATRIBUTOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PIEZAS</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.facebook.com/p/Momentos-%C3%9Anicos-Pasteler%C3%ADa-y-Reposter%C3%ADa-100076159834057/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/momentos.unicosco/"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Somos <span>MOMENTOS UNICOS</span> 
+                <p class="descripcion">Tu celebracion personalizada</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto1.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Nosotros</p>
+            <h2>Hola, Somos <span>Momentos Unicos</span> </h2>
+            <h3>Pasteleria</h3>
+            <p>Momentos Únicos nació en 2023, en la
+                ciudad de Cali, creemos que cada
+                ocasión merece ser celebrada con algo
+                dulce y extraordinario. Nuestro nombre
+                refleja nuestra misión: crear delicias que
+                transformen cada instante en un
+                recuerdo inolvidable. </p>
+            <p>Ya sea un
+                cumpleaños, una tarde con amigos o una
+                simple pausa en tu día, queremos ser
+                parte de esos momentos especiales ¡Ven
+                y descubre por qué cada bocado en
+                "Momentos Únicos" es una celebración
+                en sí misma!</p>
+        
+
+            <h2 class="objetivos-titulo">OBJETIVOS</h2>
+            <p>Nos esforzamos en ofrecer productos que
+                satisfagan las necesidades y deseos de
+                nuestros clientes, Nos enfocamos en la
+                personalización, la calidad de los ingredientes
+                y una presentación excepcional, garantizando
+                que cada celebración sea única.</p>
+            <p>También
+                brindamos clases de pastelería
+                personalizadas, 100% prácticas y con
+                materiales incluidos, permitiendo que
+                cualquiera, sin importar su nivel de
+                experiencia, aprenda a crear deliciosas obras
+                de pastelería.</p>
+            
+            </div>
+            
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">ATRIBUTOS DE LA MARCA</h3>
+        <div class="fila">
+            <div class="servicio">
+                <img src="img/1.jpg" alt="Imagen circular" class="imagen-circular">
+                <h4>Educacion</h4>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus rem illum sunt, asperiores!</p>
+            </div>
+            <div class="servicio">
+                <img src="img/2.jpg" alt="Imagen circular" class="imagen-circular">
+                <h4>Calidez</h4>
+                <hr>
+                <p>Pasteles frescos que llenan tu hogar de dulzura y sabor.</p>
+            </div>
+            <div class="servicio">
+                <img src="img/3.jpg" alt="Imagen circular" class="imagen-circular">
+                <h4>Artesanalidad</h4>
+                <hr>
+                <p>Creaciones hechas a mano con ingredientes selectos.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <img src="img/4.jpg" alt="Imagen circular" class="imagen-circular">
+                <h4>Sostenibilidad</h4>
+                <hr>
+                <p>Utilizamos prácticas responsables con el medio ambiente.</p>
+            </div>
+            <div class="servicio">
+                <img src="img/5.jpg" alt="Imagen circular" class="imagen-circular">
+                <h4>Creatividad</h4>
+                <hr>
+                <p>Diseños únicos para cada celebración.</p>
+            </div>
+            <div class="servicio">
+                <img src="img/8.jpg" alt="Imagen circular" class="imagen-circular">
+                <h4>Personalización</h4>
+                <hr>
+                <p>Pasteles hechos a tu gusto y medida.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>TU CELEBRACION PERSONALIZADA</h3>
+        
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">PIEZAS VISUALES</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/One.png" alt="">
+                <div class="info">
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Two.png" alt="">
+                <div class="info">
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Three.png" alt="">
+                <div class="info">
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Four.png" alt="">
+                <div class="info">
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Five.png" alt="">
+                <div class="info">
+
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Six.png" alt="">
+                <div class="info">
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Seven.png" alt="">
+                <div class="info">
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Eight.png" alt="">
+                <div class="info">
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Nine.png" alt="">
+                <div class="info">
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Direccion: B/Cra23 # 52-10 Nueva Floresta</p>
+        <p>Telefono: 3208185533</p>
+        <p>Todos los derechos reservados - 2025</p>
+        <div class="redes">
+            <a href="https://www.facebook.com/p/Momentos-%C3%9Anicos-Pasteler%C3%ADa-y-Reposter%C3%ADa-100076159834057/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/momentos.unicosco/"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
